@@ -23,6 +23,14 @@ app.get('/about', (req, res) => {
     res.render('about')
 })
 
+app.get('/json', (req, res) => {
+    const json = {
+        nombre: 'alejo',
+        apellido: 'serna'
+    }
+    res.send(json)
+})
+
 
 //Server
 app.listen(port, () => {
