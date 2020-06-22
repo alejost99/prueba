@@ -15,7 +15,7 @@ const port = process.env.PORT || 4000
 //Routes
 app.get('/', (req, res) => {
     res.render('home', {
-        name: 'aleJandro sErnA tEjadA'
+        name: 'aleJandro sErnA'
     })
 })
 
